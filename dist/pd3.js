@@ -131,7 +131,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    radius: opts && opts.radius !== undefined ? opts.radius : 45, // 力导向--圆形排列半径
 	    distance: opts && opts.distance !== undefined ? opts.distance : 70 // 力导向--连线长度距离
 	  };
-	  if (opts && opts.drag !== undefined) {
+	  if (opts && opts.drag === true) {
 	    option.drag = true;
 	  } // 是否允许节点进行拖拽
 	  else {
@@ -546,6 +546,10 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	        node.selectAll('g.cirque').call(d3.drag().on('start', dragstarted).on('drag', dragged).on('end', dragended));
 	        child.call(d3.drag().on('start', dragstarted).on('drag', dragged).on('end', dragended));
+	        // 当拖拽开放时，同时增加zoom事件
+	        svg.call(d3.zoom().on('zoom', function () {
+	          svg.selectAll('g.force').attr('transform', 'translate(' + d3.event.transform.x + ', ' + d3.event.transform.y + ') scale(' + d3.event.transform.k + ')');
+	        }));
 	      }
 	
 	      if (option.click) {
