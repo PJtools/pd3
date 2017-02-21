@@ -14,7 +14,7 @@
     "url": "https://github.com/PJtools/pd3.git"
   },
   "dependencies": {
-
+    "d3": "^4.6.0"
   },
   "devDependencies": {
     "babel-core": "^6.17.0",

@@ -48,10 +48,7 @@ const webpackConfig = {
   devtool: config.compiler_devtool,
   resolve: {
     root: paths.client(),
-    extensions: ['', '.js', '.jsx', '.json'],
-    alias: {
-      'd3': 'd3'
-    }
+    extensions: ['', '.js', '.jsx', '.json']
   },
   externals: {
     'd3': 'd3'
