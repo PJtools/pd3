@@ -94,36 +94,36 @@ ul.egrh-list > li {
   font-weight: bold;
   font-size: 12px;
 }
-ul.egrh-list > li.top1 .egrh-listnum-flex > div {
-  background-color: #f75a53;
-}
-ul.egrh-list > li.top1 .egrh-list-contbox > span {
-  color: #f75a53
-}
-ul.egrh-list > li.top2 .egrh-listnum-flex > div {
-  background-color: #faa701;
-}
-ul.egrh-list > li.top2 .egrh-list-contbox > span {
-  color: #faa701
-}
-ul.egrh-list > li.top3 .egrh-listnum-flex > div {
-  background-color: #f6dc00;
-}
-ul.egrh-list > li.top3 .egrh-list-contbox > span {
-  color: #f6dc00
-}
-ul.egrh-list > li.top4 .egrh-listnum-flex > div {
-  background-color: #67ddab;
-}
-ul.egrh-list > li.top4 .egrh-list-contbox > span {
-  color: #67ddab
-}
-ul.egrh-list > li.top5 .egrh-listnum-flex > div {
-  background-color: #1f9ded;
-}
-ul.egrh-list > li.top5 .egrh-list-contbox > span {
-  color: #1f9ded
-}
+/*ul.egrh-list > li.top1 .egrh-listnum-flex > div {*/
+  /*background-color: #f75a53;*/
+/*}*/
+/*ul.egrh-list > li.top1 .egrh-list-contbox > span {*/
+  /*color: #f75a53*/
+/*}*/
+/*ul.egrh-list > li.top2 .egrh-listnum-flex > div {*/
+  /*background-color: #faa701;*/
+/*}*/
+/*ul.egrh-list > li.top2 .egrh-list-contbox > span {*/
+  /*color: #faa701*/
+/*}*/
+/*ul.egrh-list > li.top3 .egrh-listnum-flex > div {*/
+  /*background-color: #f6dc00;*/
+/*}*/
+/*ul.egrh-list > li.top3 .egrh-list-contbox > span {*/
+  /*color: #f6dc00*/
+/*}*/
+/*ul.egrh-list > li.top4 .egrh-listnum-flex > div {*/
+  /*background-color: #67ddab;*/
+/*}*/
+/*ul.egrh-list > li.top4 .egrh-list-contbox > span {*/
+  /*color: #67ddab*/
+/*}*/
+/*ul.egrh-list > li.top5 .egrh-listnum-flex > div {*/
+  /*background-color: #1f9ded;*/
+/*}*/
+/*ul.egrh-list > li.top5 .egrh-list-contbox > span {*/
+  /*color: #1f9ded*/
+/*}*/
 .egrh-right {
   float: left;
   width: 819px;
