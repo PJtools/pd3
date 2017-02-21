@@ -45,7 +45,12 @@ var json = [
 
 window.onload = function () {
   // 构建绘制力导向图
-  var force = pd3.force.spread('crtbox', json);
+  var force = pd3.force.spread('crtbox', json, {
+    drag: true,
+    click: function (d) {
+      alert('触发' + d.name + '节点.');
+    }
+  });
   // 构建左侧数据列表
   loadLeftList(json, force);
 };
