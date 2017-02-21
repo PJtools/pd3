@@ -56,7 +56,7 @@ var loadLeftList = function (data, force) {
   var html = '';
   for(var i=0, len=data.length; i<len; i++) {
     var color = force.getColorToGroup(i);
-    html += '<li class="top1">';
+    html += '<li class="top' + (i+1) + '">';
     html += '<div class="egrh-list-num">';
     html += '<div class="egrh-listnum-flex">';
     html += '<div style="background-color: ' + color + '"></div>';
