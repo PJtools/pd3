@@ -4,4 +4,4 @@
         如有类似化展示需求，可下载进行引入自身项目进行调用，具体实现请参照各示例源代码。
 
 示例：
-<a href='http://www.baidu.com' target='_blank'>1.力导向图 -- 热点事件分析</a>
+<a href='https://pjtools.github.io/pd3/example/force/01.hot-events/index.html' target='_blank'>1.力导向图 -- 热点事件分析</a>
